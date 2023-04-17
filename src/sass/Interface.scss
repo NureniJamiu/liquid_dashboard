@@ -1,0 +1,15 @@
+@import "../variables/Variables.scss";
+
+.interface-container {
+  font-family: $primaryFont;
+  position: absolute;
+  top: 7rem;
+  left: 0;
+}
+
+.interface-container {
+  .interface-container-div {
+    display: flex;
+    gap: 2rem;
+  }
+}
