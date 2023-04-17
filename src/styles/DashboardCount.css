@@ -1,0 +1,29 @@
+.dashboard-count {
+  background-color: #fff;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  padding: 2rem 2rem;
+  border-radius: 1.5em 1.5em 0.5em 0.5em;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.05);
+}
+
+.dashboard-count .dashboard-count-one {
+  font-size: 2rem;
+  color: #1f3d83;
+}
+.dashboard-count .dashboard-count-two {
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  text-align: center;
+}
+.dashboard-count .dashboard-count-two .dashboard-count-num {
+  font-size: 2rem;
+  color: #1f3d83;
+}
+.dashboard-count .dashboard-count-two span span {
+  color: #1f3d83;
+  font-weight: bold;
+  cursor: pointer;
+}/*# sourceMappingURL=DashboardCount.css.map */
