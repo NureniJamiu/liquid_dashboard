@@ -1,0 +1,32 @@
+.dashboard-search {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  width: 70%;
+  margin-top: 3rem;
+}
+
+.dashboard-search input {
+  flex: 1;
+  width: 80%;
+  height: 3rem;
+  border: none;
+  border-radius: 0.3rem;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.05);
+  padding: 0 1rem;
+}
+.dashboard-search input:focus {
+  outline: none;
+}
+.dashboard-search button {
+  width: 20%;
+  height: 3rem;
+  border: none;
+  background-color: #097bbf;
+  color: #fff;
+  border-radius: 0.3rem;
+  transition: all 0.03s ease-in;
+}
+.dashboard-search button:hover {
+  background-color: #1f3d83;
+}/*# sourceMappingURL=DashboardSearch.css.map */
