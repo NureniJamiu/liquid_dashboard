@@ -1,0 +1,18 @@
+.dashboard-container {
+  min-height: 100vh;
+  position: absolute;
+  width: 1005px;
+  padding: 0 1rem;
+  left: 16em;
+  display: flex;
+  flex-direction: column;
+}
+
+.dashboard-container .dashboard-greeting {
+  color: #fff;
+  margin-bottom: 2rem;
+}
+.dashboard-container .dashboard-greeting span {
+  color: #2dc6a0;
+  font-weight: 600;
+}/*# sourceMappingURL=Dashboard.css.map */
