@@ -22,7 +22,12 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.1); /* Change the opacity value to make it darker */
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.1
+  ); /* Change the opacity value to make it darker */
 }
 
 .auth-content {
@@ -103,7 +108,12 @@
   margin-top: 20px;
 }
 
-.auth-form .auth-small span {
+.auth-form .auth-small a {
   color: green;
   cursor: pointer;
-}/*# sourceMappingURL=Signup.css.map */
+}
+
+form a {
+  text-align: center;
+}
+/*# sourceMappingURL=Signup.css.map */
