@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import logo from "../assets/logo.png";
 
 // STYLE
@@ -21,7 +22,11 @@ const Login = () => {
             <p className="forgot-passwd">Forgot Password?</p>
             <button>Login</button>
             <p className="auth-small">
-              Don't have an account yet? <span>Sign up</span> today
+              Don't have an account yet? <Link to="/signup">Sign up </Link>
+              today
+            </p>
+            <p>
+              <Link to="/dashboard">View Dashboard instead</Link>
             </p>
           </form>
         </div>
