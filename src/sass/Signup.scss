@@ -1,0 +1,116 @@
+@import "../variables/Variables.scss";
+
+.auth-hero {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+
+.auth-background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("../assets/background_img.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.auth-background-image::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.1
+  ); /* Change the opacity value to make it darker */
+}
+
+.auth-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  font-family: $primaryFont;
+}
+
+.auth-left-logo {
+  margin-bottom: 50px;
+}
+
+.auth-left-logo img {
+  max-width: 100%;
+  height: auto;
+}
+
+.auth-form {
+  width: 400px;
+  padding: 40px;
+  background-color: $white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  border: 1.5px solid $lightBlue;
+}
+
+.auth-form h2 {
+  text-align: center;
+  color: $darkBlue;
+}
+
+.auth-form p {
+  text-align: center;
+  font-size: 12px;
+  margin-bottom: 20px;
+  color: $gray;
+}
+
+.auth-form input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: $formInput;
+  color: $gray;
+}
+
+.auth-form button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: $darkBlue;
+  color: $white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.auth-form .forgot-passwd {
+  text-align: right;
+  font-size: 12px;
+  color: green;
+  cursor: pointer;
+}
+
+.auth-form .auth-small {
+  text-align: center;
+  font-size: 12px;
+  margin-top: 20px;
+}
+
+.auth-form .auth-small span {
+  color: green;
+  cursor: pointer;
+}
