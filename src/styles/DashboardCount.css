@@ -3,7 +3,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
-  padding: 2rem 2rem;
+  padding: 1rem 2rem;
   border-radius: 1.5em 1.5em 0.5em 0.5em;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.05);
 }
@@ -15,7 +15,7 @@
 .dashboard-count .dashboard-count-two {
   display: flex;
   flex-direction: column;
-  justify-self: center;
+  justify-self: flex-end;
   text-align: center;
 }
 .dashboard-count .dashboard-count-two .dashboard-count-num {

@@ -2,19 +2,40 @@
   margin-top: 1rem;
 }
 
-table {
+.dashboard-table-head {
+  color: #1f3d83;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.dashboard-table-head,
+.dashboard-table-data-container {
   width: 100%;
-  border-collapse: collapse;
-  overflow: hidden;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  padding: 1rem;
+  justify-content: space-between;
+  border-radius: 5px;
+  margin: 0.5rem 0;
 }
 
-th,
-td {
-  padding: 15px;
-  border-collapse: collapse;
+.dashboard-table-data-container-scroll {
+  height: 250px;
+  overflow-y: scroll;
+  padding: 0 0.2rem;
 }
 
-th {
-  text-align: left;
+.status {
+  color: #00a14b;
+}
+
+.disbursed {
+  color: #eab054;
+}
+
+.actions {
+  font-size: large;
+  color: blue;
+  cursor: pointer;
 }/*# sourceMappingURL=DashboardTable.css.map */

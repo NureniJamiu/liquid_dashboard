@@ -4,21 +4,40 @@
   margin-top: 1rem;
 }
 
-table {
-  width: 100%;
-  //   height: 800px;
-  border-collapse: collapse;
-  overflow: hidden;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+.dashboard-table-head {
+  color: $darkBlue;
+  text-transform: uppercase;
+  font-weight: 600;
 }
 
-th,
-td {
-  padding: 15px;
-  border-collapse: collapse;
-  //   background-color: rgba(255, 255, 255, 0.2);
-  //   color: #fff;
+.dashboard-table-head,
+.dashboard-table-data-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-color: $white;
+  padding: 1rem;
+  justify-content: space-between;
+  border-radius: 5px;
+  margin: 0.5rem 0;
 }
-th {
-  text-align: left;
+
+.dashboard-table-data-container-scroll {
+  height: 250px;
+  overflow-y: scroll;
+  padding: 0 0.2rem;
+}
+
+.status {
+  color: #00a14b;
+}
+
+.disbursed {
+  color: #eab054;
+}
+
+.actions {
+  font-size: large;
+  color: blue;
+  cursor: pointer;
 }
