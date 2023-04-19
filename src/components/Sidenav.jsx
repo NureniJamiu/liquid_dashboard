@@ -16,7 +16,7 @@ import {
 } from "react-icons/bs";
 
 const Sidenav = () => {
-  const [toggleNav, setToggleNav] = useState(false);
+  const [toggleNav, setToggleNav] = useState(true);
 
   const icons = [
     { icon: BiMenuAltLeft },
