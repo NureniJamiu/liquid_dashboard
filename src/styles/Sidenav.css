@@ -6,6 +6,7 @@
 .sidebar-container .sidebar-icon ul {
   list-style-type: none;
   background-color: #1f3d83;
+  height: 100%;
 }
 .sidebar-container .sidebar-icon ul li {
   display: flex;

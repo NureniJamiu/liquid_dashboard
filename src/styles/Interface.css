@@ -3,9 +3,10 @@
   position: absolute;
   top: 7rem;
   left: 0;
+  width: 100%;
 }
 
 .interface-container .interface-container-div {
   display: flex;
-  gap: 2rem;
+  gap: 1rem;
 }/*# sourceMappingURL=Interface.css.map */
